@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
 	font-family: "Poppins", sans-serif;
 	background-color: #0b162c;
@@ -12,13 +13,22 @@ body {
 	padding: 10px 20px;
   }
   
+  
   .navbar-brand {
 	color: #f0fbfe; 
 	font-size: 20px; 
 	font-weight: bolder; 
   }
+  
+  .navbar-brand:hover {
+	color: #00ddff56; 
+	font-size: 20px; 
+	font-weight: bolder; 
+  }
+  
   .nav-link {
-	color: #ffffff;
+	color: #fffdfd;
+	font-weight: bold; 
 	margin-right: 15px;
   }
   
@@ -32,31 +42,67 @@ body {
   
   .dropdown-menu .dropdown-item {
 	color: #012d42;
+
   }
   
   .dropdown-menu .dropdown-item:hover {
 	color: #5fc2babb;
+	font-weight: bolder; 
 	background-color: #1c2942;
   }
-  /* Weather Map Section */
-  .weather-map-section {
-    background-color: #1c2942;
+  
+  /* Hero Section */
+  .hero-section {
+	background: linear-gradient(135deg, #1c2942 30%, #0b162c 90%);
+	color: white;
+	padding: 80px 0;
   }
   
-  .weather-map-section h1 {
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: 700;
+  .hero-section h1 {
+	font-size: 48px;
+	font-weight: 700;
   }
   
-  #iframe-meteo {
-    border: none;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  .lead {
+	font-size: 20px;
+	margin-bottom: 30px;
+  }
+  
+  /* Weather Info Section */
+  .weather-info .weather-box {
+	background-color: #1c2942;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .weather-box:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .weather-data {
+	font-size: 24px;
+	color: #ffffff;
   }
   
   /* Footer */
   footer {
-    background-color: #0b162c;
-    color: #ffffff;
+	background-color: #0b162c;
+	color: #ffffff;
   }
   
+  /* Input Field Animation */
+  .input-group input:focus {
+	border-color: #00ffea;
+	box-shadow: 0 0 8px rgba(0, 208, 255, 0.8);
+	transition: all 0.3s ease;
+  }
+  
+
+  .weather-info {
+	margin-left: 10px; /* Ajuste la valeur pour ajouter plus ou moins d'espace */
+	font-size: 25px; /* Ajuste la taille du texte si besoin */
+	font-weight: bold; /* Optionnel : met en gras pour plus de clarté */
+  }
