@@ -1,0 +1,62 @@
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #0b162c;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Navigation */
+  .navbar {
+	background-color: #66b0cb38;
+	padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+	color: #f0fbfe; 
+	font-size: 20px; 
+	font-weight: bolder; 
+  }
+  .nav-link {
+	color: #ffffff;
+	margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+	color: #b5fff9a1;
+  }
+  
+  .dropdown-menu {
+	background-color: #aadef4b5;
+  }
+  
+  .dropdown-menu .dropdown-item {
+	color: #012d42;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+	color: #5fc2babb;
+	background-color: #1c2942;
+  }
+  /* Weather Map Section */
+  .weather-map-section {
+    background-color: #1c2942;
+  }
+  
+  .weather-map-section h1 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  #iframe-meteo {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0b162c;
+    color: #ffffff;
+  }
+  
